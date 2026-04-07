@@ -1,0 +1,102 @@
+📂 Task Walkthrough
+1️⃣ Email Analysis
+
+Swali:
+Which individual received the email regarding a Quote for Services Rendered?
+
+Jibu:
+
+William McClean
+
+Swali:
+What email address was used by the adversary?
+
+Jibu:
+
+Accounts.Payable@groupmarketingonline.icu
+2️⃣ URL & Redirection Analysis
+
+Swali:
+Root domain ya redirection URL?
+
+Jibu:
+
+kennaroads.buzz
+
+Swali:
+Which company is impersonated?
+
+Jibu:
+
+Microsoft
+3️⃣ Phishing Kit Discovery
+
+Swali:
+Name of archive file?
+
+Jibu:
+
+Update365.zip
+
+Swali:
+SHA256 hash?
+
+Jibu:
+
+ba3c15267393419eb08c7b2652b8b6b39b406ef300ae8a18fee4d16b19ac9686
+4️⃣ VirusTotal Analysis
+
+Swali:
+Aside from phishing, what other threat category?
+
+Jibu:
+
+Trojan
+
+Swali:
+How many files are in the archive?
+
+Jibu:
+
+49
+5️⃣ Credential Harvesting
+
+Swali:
+User aliyesubmit credentials zaidi ya mara moja?
+
+Jibu:
+
+michael.ascot@swiftspend.finance
+
+Swali:
+Email used to collect credentials?
+
+Jibu:
+
+m3npat@yandex.com
+6️⃣ Additional Artifacts
+
+Swali:
+Gmail used by attacker?
+
+Jibu:
+
+jamestanner2299@gmail.com
+7️⃣ Flag Extraction
+
+Process:
+
+Locate flag.txt
+Decode using CyberChef:
+Base64 decode
+Reverse
+
+Jibu:
+
+THM{pL4y_w1Th_tH3_URL}
+🧾 Key Skills Learned
+Email header & attachment analysis
+URL redirection tracing
+Phishing kit extraction
+VirusTotal intelligence usage
+Credential harvesting analysis
